@@ -1,0 +1,56 @@
+{
+  "name": "material-custom-elements",
+  "version": "0.25.3",
+  "description": "Material web components bundled for the web.",
+  "main": "all.min.js",
+  "type": "module",
+  "scripts": {
+    "update": "pnpm up -L",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MajesticString/material-web-components.git"
+  },
+  "keywords": [
+    "material",
+    "components",
+    "material-web",
+    "material",
+    "design"
+  ],
+  "author": "Harry Allen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MajesticString/material-web-components/issues"
+  },
+  "homepage": "https://github.com/MajesticString/material-web-components#readme",
+  "devDependencies": {
+    "@material/mwc-button": "^0.25.3",
+    "@material/mwc-checkbox": "^0.25.3",
+    "@material/mwc-circular-progress": "^0.25.3",
+    "@material/mwc-circular-progress-four-color": "^0.25.3",
+    "@material/mwc-dialog": "^0.25.3",
+    "@material/mwc-drawer": "^0.25.3",
+    "@material/mwc-fab": "^0.25.3",
+    "@material/mwc-formfield": "^0.25.3",
+    "@material/mwc-icon": "^0.25.3",
+    "@material/mwc-icon-button": "^0.25.3",
+    "@material/mwc-icon-button-toggle": "^0.25.3",
+    "@material/mwc-linear-progress": "^0.25.3",
+    "@material/mwc-list": "^0.25.3",
+    "@material/mwc-menu": "^0.25.3",
+    "@material/mwc-radio": "^0.25.3",
+    "@material/mwc-select": "^0.25.3",
+    "@material/mwc-slider": "^0.25.3",
+    "@material/mwc-snackbar": "^0.25.3",
+    "@material/mwc-switch": "^0.25.3",
+    "@material/mwc-tab": "^0.25.3",
+    "@material/mwc-tab-bar": "^0.25.3",
+    "@material/mwc-textarea": "^0.25.3",
+    "@material/mwc-textfield": "^0.25.3",
+    "@material/mwc-top-app-bar": "^0.25.3",
+    "@material/mwc-top-app-bar-fixed": "^0.25.3",
+    "esbuild": "^0.14.14"
+  }
+}
